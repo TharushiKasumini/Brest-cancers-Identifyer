@@ -1,14 +1,24 @@
-# Brest-cancers-Identifyer (Group 4)
-ML Course work HDSE24.1 NIBM Kurunegala 
+# Breast Cancer Identifier 🧬
 
-Group Details
+This project is a machine learning-based breast cancer classifier that predicts whether a tumor is benign or malignant using gene expression data. It is developed as part of the HDSE24.1 coursework at NIBM Kurunegala.
 
-KUHDSE24.1F – 008      I.R. Wickramasinghe
+The application is built with **Python** and **Flask**, and uses a pre-trained **Random Forest** model for classification.
 
-KUHDSE24.1F – 024      W.G.T. Kasumini 
 
-KUHDSE24.1F – 025      W.K.K. Weerakkodi
 
-KUHDSE24.1F – 032      M.R.C.S. Jayakodi
+## 📂 Project Structure
 
-KUHDSE24.1F – 052      B.R.D.M. Senevirathne 
+├── app.py # Flask web application <br>
+├── random_forest_model.pkl # Trained Random Forest model <br>
+├── scaler.pkl # Scaler used for feature normalization <br>
+├── styles.css # Styling for the web UI <br>
+├── requirements.txt # Python dependencies <br>
+└── README.md # Project documentation<br>
+
+# Running the Application
+1.Clone the repository:           git clone https://github.com/TharushiKasumini/Brest-cancers-Identifyer.git<br>
+2.Navigate to the project directory:    cd Brest-cancers-Identifyer<br>
+3.Install the required dependencies:    pip install -r requirements.txt<br>
+4.Run the Flask application:python      app.py<br>
+
+
